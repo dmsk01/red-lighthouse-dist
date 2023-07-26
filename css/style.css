@@ -543,13 +543,7 @@ body {
 
 .show-home {
   background: url("../img/home/tshirtdog.jpg") no-repeat;
-  background-position: bottom -50px left 0;
   background-size: cover;
-}
-@media (max-width: 78.75em) {
-  .show-home {
-    background-position: bottom 0 left 0;
-  }
 }
 .show-home__container {
   padding-top: 45px;
