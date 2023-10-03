@@ -495,7 +495,7 @@ body::after {
 }
 .footer__row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 @media (max-width: 78.75em) {
@@ -506,6 +506,7 @@ body::after {
 @media (max-width: 47.99875em) {
   .footer__row {
     flex-direction: column;
+    align-items: center;
     gap: 40px;
   }
 }
@@ -804,7 +805,7 @@ body::after {
 }
 
 .show-home {
-  background: url("../img/home/tshirtdog.jpg") no-repeat;
+  background: url("../img/home/tshirtdog.jpg") left center/cover no-repeat;
   background-size: cover;
 }
 .show-home__container {
